@@ -1,0 +1,130 @@
+.heading {
+    color: rgb(255, 255, 255);
+    background-color: black;
+    text-align: center;
+    font-size: 27px;
+    padding-left: 10px;
+    padding-right: 50px;
+    padding-bottom: 20px;
+    padding-top: 34px;
+    font-stretch: extra-expanded 1% 500%;
+    text-shadow: rgb(252, 5, 5);
+    border-radius: 0px;
+    width: auto;
+    height: 100px;
+    border: 10px solid black;
+    position: static;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: rgb(0, 0, 0);
+    width: auto;
+    border: 10px solid black;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    position: static;
+  }
+  
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    border-radius: 40px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .topnav a.active {
+    background-color: #154070;
+    color: white;
+  }
+
+.column {
+    border-radius: 0px;
+    float: left;
+    padding: 5px;
+    
+}
+
+.pictures::after {
+    content:" ";
+    clear: both;
+    display: table;
+
+}
+
+.bio {
+    text-align: left;
+    float: left;
+    background: rgb(250, 246, 5);
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    word-wrap: break-word;
+    color: blue;
+    font-size: medium;
+    width: auto;
+    height: auto
+}
+
+#footer {
+  position: relative;
+  height: 100px;
+  margin-top: -100px;
+  background-color: rgb(0, 0, 0);
+  color: white;
+  text-align: center;
+  clear: both;
+  width: auto;
+  height: 150px;
+}
+.fa-google {
+  padding: 10px;
+  font-size: 30px;
+  width: 10px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 20%;
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-instagram {
+  padding: 10px;
+  font-size: 30px;
+  width: 10px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 20%;
+  background: #125688;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+  padding: 10px;
+  font-size: 30px;
+  width: 10px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 20%;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+  padding: 10px;
+  font-size: 30px;
+  width: 10px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 20%;
+}
+
